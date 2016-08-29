@@ -1,19 +1,17 @@
 {
-  "name": "react-pdf-js",
-  "version": "1.0.27",
+  "name": "react-pdf-js-worker",
+  "version": "2.0.0-alpha1",
   "description": "A React component to wrap PDF.js",
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikecousins/react-pdf-js"
+    "url": "https://github.com/truckingsim/react-pdf-js-worker"
   },
   "scripts": {
-    "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+    "build": "npm run clean && npm run build:lib",
     "build:lib": "babel src --out-dir lib",
-    "build:umd": "webpack src/index.js dist/react-pdf-js.js --config webpack.config.development.js",
-    "build:umd:min": "webpack src/index.js dist/react-pdf-js.min.js --config webpack.config.production.js",
-    "clean": "rimraf dist lib",
+    "clean": "rimraf lib",
     "lint": "eslint src",
     "prepublish": "npm run lint && npm run clean && npm run build"
   },
@@ -24,14 +22,15 @@
     "pdfjs"
   ],
   "author": "Mike Cousins <mike@mikecousins.com> (http://github.com/mikecousins)",
+  "contributors": ["Adam Heim (http://github.com/truckingsim"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikecousins/react-pdf-js/issues"
+    "url": "https://github.com/truckingsim/react-pdf-js-worker/issues"
   },
-  "homepage": "https://github.com/mikecousins/react-pdf-js",
+  "homepage": "https://github.com/truckingsim/react-pdf-js-worker",
   "dependencies": {
     "pdfjs-dist": "1.5.376",
-    "react": "15.3.0"
+    "react": "^15.3.1"
   },
   "devDependencies": {
     "babel-cli": "6.11.4",
@@ -47,17 +46,15 @@
     "eslint": "3.3.0",
     "eslint-config-airbnb": "10.0.1",
     "eslint-plugin-import": "1.13.0",
-    "eslint-plugin-react": "6.1.0",
     "eslint-plugin-jsx-a11y": "2.1.0",
+    "eslint-plugin-react": "6.1.0",
     "rifraf": "2.0.2",
-    "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "rimraf": "2.5.4"
   },
-  "npmName": "react-pdf-js",
+  "npmName": "react-pdf-js-worker",
   "npmFileMap": [
     {
       "files": [
-        "dist/*.js",
         "lib/*.js",
         "src/*.js"
       ]

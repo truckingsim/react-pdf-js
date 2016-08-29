@@ -1,6 +1,6 @@
 import React from 'react';
 
-require('pdfjs-dist/build/pdf.combined');
+require('pdfjs-dist/build/pdf');
 require('pdfjs-dist/web/compatibility');
 
 const makeCancelable = (promise) => {
@@ -31,6 +31,10 @@ class Pdf extends React.Component {
     this.onDocumentComplete = this.onDocumentComplete.bind(this);
     this.onPageComplete = this.onPageComplete.bind(this);
     this.getDocument = this.getDocument.bind(this);
+  }
+
+  componentWillMount() {
+    window.PDFJS.workerSrc = this.props.workerSrc;
   }
 
   componentDidMount() {
@@ -255,6 +259,7 @@ Pdf.propTypes = {
   binaryToBase64: React.PropTypes.func,
   onDocumentComplete: React.PropTypes.func,
   onPageComplete: React.PropTypes.func,
+  workerSrc: React.PropTypes.string.isRequired,
 };
 Pdf.defaultProps = { page: 1, scale: 1.0 };
 
