@@ -1,6 +1,6 @@
 {
   "name": "react-pdf-js-worker",
-  "version": "2.0.0-alpha1",
+  "version": "2.0.0",
   "description": "A React component to wrap PDF.js",
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
