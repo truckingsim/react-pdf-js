@@ -2,11 +2,11 @@
 ---
 [![NPM Version](https://img.shields.io/npm/v/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
-[![Build Status](https://img.shields.io/travis/truckingsim/react-pdf-js-worker/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/react-pdf-js)
+[![Build Status](https://img.shields.io/travis/truckingsim/react-pdf-js-worker/master.svg?style=flat-square)](https://travis-ci.org/truckingsim/react-pdf-js-worker)
 [![dependencies Status](https://david-dm.org/truckingsim/react-pdf-js-worker/status.svg)](https://david-dm.org/truckingsim/react-pdf-js-worker)
 [![devDependencies Status](https://david-dm.org/truckingsim/react-pdf-js-worker/dev-status.svg)](https://david-dm.org/truckingsim/react-pdf-js-worker?type=dev)
 
-`react-pdf-js` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide.
+`react-pdf-js-worker` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide.
 
 ---
 
