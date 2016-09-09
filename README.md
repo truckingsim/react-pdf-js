@@ -1,10 +1,10 @@
 #react-pdf-js
 ---
-[![NPM Version](https://img.shields.io/npm/v/react-pdf-js.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js)
-[![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-js.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js)
-[![Build Status](https://img.shields.io/travis/mikecousins/react-pdf-js/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/react-pdf-js)
-[![Dependency Status](https://david-dm.org/mikecousins/react-pdf-js.svg)](https://david-dm.org/mikecousins/react-pdf-js)
-[![devDependency Status](https://david-dm.org/mikecousins/react-pdf-js/dev-status.svg)](https://david-dm.org/mikecousins/react-pdf-js#info=devDependencies)
+[![NPM Version](https://img.shields.io/npm/v/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
+[![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
+[![Build Status](https://img.shields.io/travis/truckingsim/react-pdf-js-worker/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/react-pdf-js)
+[![dependencies Status](https://david-dm.org/truckingsim/react-pdf-js-worker/status.svg)](https://david-dm.org/truckingsim/react-pdf-js-worker)
+[![devDependencies Status](https://david-dm.org/truckingsim/react-pdf-js-worker/dev-status.svg)](https://david-dm.org/truckingsim/react-pdf-js-worker?type=dev)
 
 `react-pdf-js` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide.
 
@@ -13,13 +13,13 @@
 Usage
 -----
 
-Install with `npm install react-pdf-js`
+Install with `npm install react-pdf-js-worker`
 
 Use in your app (showing some basic pagination as well):
 
 ```js
 import React from 'react';
-import PDF from 'react-pdf-js';
+import PDF from 'react-pdf-js-worker';
 
 class MyPdfViewer extends React.Component {
   constructor(props) {
@@ -84,5 +84,5 @@ module.exports = MyPdfViewer;
 
 ## Credit
 
-This project is a fork of [react-pdfjs](https://github.com/erikras/react-pdfjs) which itself was a port of [react-pdf](https://github.com/nnarhinen/react-pdf), so thank you to
+This project is a fork of [react-pdf-js](https://github.com/mikecousins/react-pdf-js) which is a fork of [react-pdfjs](https://github.com/erikras/react-pdfjs) which itself was a port of [react-pdf](https://github.com/nnarhinen/react-pdf), so thank you to
 the original authours.
