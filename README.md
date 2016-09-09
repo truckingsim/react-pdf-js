@@ -1,4 +1,4 @@
-#react-pdf-js
+#react-pdf-js-worker
 ---
 [![NPM Version](https://img.shields.io/npm/v/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-js-worker.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js-worker)
