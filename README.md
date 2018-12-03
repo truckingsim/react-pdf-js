@@ -75,6 +75,7 @@ class MyPdfViewer extends React.Component {
         <PDF file="somefile.pdf" onDocumentComplete={this.onDocumentComplete} onPageCompleted={this.onPageCompleted} page={this.state.page} />
         {pagination}
       </div>
+    );
   }
 }
 
